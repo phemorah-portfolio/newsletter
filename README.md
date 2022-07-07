@@ -60,3 +60,5 @@ To deploy this project run
     simpoly run these 2 commands in the project console terminal:
     php artisan config:cache
     php artisan config:clear
+
+    - Run a "php artisan queue:work" command in the project terminal to send the queued/scheduled posts in background.
