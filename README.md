@@ -49,7 +49,7 @@ To deploy this project run
     On Postman;
     - Create this get url http://localhost:8000/api/subscribers to see
      all subscribers created.
-     
+
     - Create new post/message broadcasts using Postman
       1. Set a POST url http://localhost:8000/api/posts
       2. In the Header section, set key=Accept and value=application/json respectively in the key/value pairs
@@ -62,4 +62,4 @@ To deploy this project run
     php artisan config:cache
     php artisan config:clear
 
-    - Run a "php artisan queue:work" command in the project terminal to send the queued/scheduled posts in background.
+    - Finally, you can run a "php artisan queue:work" command in the project terminal to send all queued/scheduled posts in background.
