@@ -49,6 +49,7 @@ To deploy this project run
     On Postman;
     - Create this get url http://localhost:8000/api/subscribers to see
      all subscribers created.
+     
     - Create new post/message broadcasts using Postman
       1. Set a POST url http://localhost:8000/api/posts
       2. In the Header section, set key=Accept and value=application/json respectively in the key/value pairs
