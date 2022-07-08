@@ -1,4 +1,8 @@
 
+# Project Title
+A simple subscription platform(RESTful APIs with MySQL) in which users are able to subscribe to a website. Whenever a new post is published on a particular website, all it's subscribers receive an automatic email with the post title and description in it. (no authentication of any kind is required)
+
+
 ## Deployment
 
 To deploy this project run
